@@ -1,32 +1,54 @@
-# Password Generator
+# 🔐 Password Generator
 
-A simple, secure password generator built with HTML, CSS, and JavaScript.
+A simple, secure, and responsive password generator built with HTML, CSS, and JavaScript. Generate strong, customizable passwords instantly right in your browser — no server, no dependencies.
 
-## Features
+## ✨ Features
 
-- Generate random passwords
-- Choose password length (6 to 32 characters)
-- Include/exclude uppercase, lowercase, numbers, and symbols
-- Copy password to clipboard
-- Password strength meter (Weak / Medium / Strong)
-- Uses cryptographically secure random values (`window.crypto`)
+- Generate random passwords with a customizable length (6 to 32 characters)
+- Toggle character types: uppercase, lowercase, numbers, and symbols
+- One-click copy to clipboard
+- Real-time password strength meter (Weak / Medium / Strong)
+- Uses cryptographically secure random values via the Web Crypto API (`window.crypto`)
+- Shuffles the generated password for better randomness
+- Clean, responsive UI
 
-## How to Use
+## 🛠️ Tech Stack
 
-1. Open `index.html` in any web browser.
-2. Set the desired password length using the slider.
-3. Check or uncheck the character types you want.
-4. Click **Generate Password**.
-5. Click the copy icon to copy the password to your clipboard.
+- **HTML5** — page structure
+- **CSS3** — styling and layout
+- **Vanilla JavaScript** — password generation logic (Web Crypto API)
 
-## Project Files
+## 📁 Project Structure
 
-- `index.html` - Main page structure
-- `style.css` - Styling and layout
-- `script.js` - Password generation logic
+```
+Password-Generator/
+├── index.html      # Main page structure
+├── style.css       # Styling and layout
+├── script.js       # Password generation logic
+├── README.md       # Project documentation
+└── LICENSE         # MIT License
+```
 
-## Tech Stack
+## 🚀 Getting Started
 
-- HTML5
-- CSS3
-- Vanilla JavaScript (Web Crypto API)
+No build tools or dependencies required.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/codewithshariqofficial/Password-Generator.git
+   ```
+2. Open `index.html` in any modern web browser.
+3. Set the desired password length using the slider.
+4. Check or uncheck the character types you want.
+5. Click **Generate Password**.
+6. Click the copy icon to copy the password to your clipboard.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**Code With Shariq Official**
+
+- GitHub: [@codewithshariqofficial](https://github.com/codewithshariqofficial)
